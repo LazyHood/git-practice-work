@@ -1,3 +1,4 @@
 DATABASE_URL = 'postgresql://localhost/app'
-DEBUG = True
-SECRET_KEY = 'your-secret-key'
+DEBUG = False
+SECRET_KEY = 'production-secret-key'
+LOG_LEVEL = 'ERROR'
